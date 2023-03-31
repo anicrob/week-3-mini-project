@@ -20,10 +20,10 @@ var playGame = function () {
     }
 
     //make all options uppercase
-    var userChoice = userChoice.toUpperCase()
+    userChoice = userChoice.toUpperCase()
 
     //allow the computer to pick an option
-    var index = math.floor(math.random() * options.length);
+    var index = Math.floor(Math.random() * options.length);
     var computerChoice = options[index];
 
     //let the player know what the computer chose
