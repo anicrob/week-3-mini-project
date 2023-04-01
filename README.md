@@ -20,3 +20,5 @@ At the end of each round, it will show you the stats.
 
 Note: To restart the stats, you will need to refresh the browser. 
 
+## Link to Site
+https://anicrob.github.io/week-3-mini-project/
