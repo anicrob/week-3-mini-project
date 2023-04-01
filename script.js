@@ -31,7 +31,7 @@ var playGame = function () {
 
     //If the user and computer tie
     if(userChoice === computerChoice){
-        alert("You tied!");
+        alert("You tied 🤷‍♀️");
         ties++;
 
     //if the user wins
@@ -40,18 +40,18 @@ var playGame = function () {
         userChoice === "R" && computerChoice === "S" ||
         userChoice === "P" && computerChoice === "R" 
     ) {
-        alert("You won!");
+        alert("You won! 🎉");
         wins++;
 
     //if the user loses
     } else {
-        alert("Sorry, you lost :(");
+        alert("Sorry, you lost 😩");
         losses++;
     }
 
     //show them the stats
     alert(
-        "Stats: \nWins: " + wins + "\nLosses: " + losses + "\nTies: " + ties
+        "Stats:\nWins: " + wins + "\nLosses: " + losses + "\nTies: " + ties
     );
 
     //see if the user wants to play again
