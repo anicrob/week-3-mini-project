@@ -51,7 +51,7 @@ var playGame = function () {
 
     //show them the stats
     alert(
-        "Stats: \n Wins:" + wins + "\nLosses:" + losses + "\nTies:" + ties
+        "Stats: \nWins: " + wins + "\nLosses: " + losses + "\nTies: " + ties
     );
 
     //see if the user wants to play again
